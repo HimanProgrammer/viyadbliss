@@ -109,18 +109,63 @@
 
 /*-------------------------
     Footer Area
+-------------------------*/ 
+
+/*-------------------------
+    Footer Area (FORCE Background Override)
 -------------------------*/
+
+.ltn__footer-area {
+  position: relative !important;
+  background-image: url("/img/footer-bg.png") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
+  z-index: 1;
+}
+
+/* Remove theme background colors */
+.ltn__footer-area .footer-top-area,
+.ltn__footer-area .ltn__copyright-area,
+.ltn__footer-area.section-bg-2,
+.ltn__footer-area.section-bg-7 {
+  background: transparent !important;
+}
+
+/* Overlay */
+.ltn__footer-area::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+}
+
+/* Keep content above overlay */
+.ltn__footer-area .footer-top-area,
+.ltn__footer-area .ltn__copyright-area {
+  position: relative;
+  z-index: 2;
+}
+
 .footer-top-area {
     padding-top: 92px;
     padding-bottom: 20px;
 }
 .footer-widget {
-    margin-bottom: 60px;
+    margin-bottom: -60px;
 }
 .footer-logo {
     position: relative;
     top: -210px;
-}
+    margin-bottom: -180px;
+} 
+
+
+
+
+
 .footer-title {
     font-size: 20px;
     margin-bottom: 25px;

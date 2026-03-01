@@ -2,55 +2,22 @@ import Link from "next/link";
 const Tags = ({ title }) => {
   return (
     <>
-      <div className="widget ltn__tagcloud-widget">
-        <h4 className="ltn__widget-title ltn__widget-title-border-2">
-          {title}
-        </h4>
-        <ul>
-          <li>
-            <Link href="#">Popular</Link>
-          </li>
-          <li>
-            <Link href="#">desgin</Link>
-          </li>
-          <li>
-            <Link href="#">ux</Link>
-          </li>
-          <li>
-            <Link href="#">usability</Link>
-          </li>
-          <li>
-            <Link href="#">develop</Link>
-          </li>
-          <li>
-            <Link href="#">icon</Link>
-          </li>
-          <li>
-            <Link href="#">Car</Link>
-          </li>
-          <li>
-            <Link href="#">Service</Link>
-          </li>
-          <li>
-            <Link href="#">Repairs</Link>
-          </li>
-          <li>
-            <Link href="#">Auto Parts</Link>
-          </li>
-          <li>
-            <Link href="#">Oil</Link>
-          </li>
-          <li>
-            <Link href="#">Dealer</Link>
-          </li>
-          <li>
-            <Link href="#">Oil Change</Link>
-          </li>
-          <li>
-            <Link href="#">Body Color</Link>
-          </li>
-        </ul>
-      </div>
+<div className="widget ltn__tagcloud-widget">
+  <h4 className="ltn__widget-title ltn__widget-title-border-2">
+    {title}
+  </h4>
+  <ul>
+    <li><Link href="#">Real Estate</Link></li>
+    <li><Link href="#">New Lifestyle</Link></li>
+    <li><Link href="#">Second Home</Link></li>
+    <li><Link href="#">Villa Projects</Link></li>
+    <li><Link href="#">Corporate Benefits</Link></li>
+    <li><Link href="#">Land Buying</Link></li>
+    <li><Link href="#">Smart Homes</Link></li>
+    <li><Link href="#">Rental Properties</Link></li>
+    <li><Link href="#">Best Weekend </Link></li>
+  </ul>
+</div>
     </>
   );
 };

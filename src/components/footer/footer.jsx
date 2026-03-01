@@ -23,7 +23,7 @@ const Footer = function () {
             <Row>
               <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-about-widget">
-                  <div className="footer-logo mb-2">
+                  <div className="footer-logo ">
                     <div className="site-logo">
                       {/* <img src="/img/logo.png" alt="Logo" /> */}
                       <img src="/img/logo-2.jpeg" alt="Logo" className="LogoAlter mb-2" width={300} height={300}/>
@@ -67,7 +67,7 @@ const Footer = function () {
                       </li>
                     </ul>
                   </div>
-                  <div className="ltn__social-media mt-20">
+                  <div className="ltn__social-media mt-10 mb-20">
                     <ul>
                       <li>
                         <Link href="#" title="Facebook">
@@ -147,7 +147,7 @@ const Footer = function () {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} sm={6} xl={2}>
+              {/* <Col xs={12} sm={6} xl={2}>
                 <div className="footer-widget footer-menu-widget clearfix">
                   <h4 className="footer-title">Customer Care</h4>
                   <div className="footer-menu">
@@ -173,8 +173,8 @@ const Footer = function () {
                     </ul>
                   </div>
                 </div>
-              </Col>
-              <Col xs={12} sm={6} xl={3}>
+              </Col> */}
+              {/* <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-newsletter-widget">
                   <h4 className="footer-title">Newsletter</h4>
                   <p>
@@ -195,7 +195,7 @@ const Footer = function () {
                   <h5 className="mt-30">We Accept</h5>
                   <img src="/img/icons/payment-4.png" alt="Payment Image" />
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </div>
