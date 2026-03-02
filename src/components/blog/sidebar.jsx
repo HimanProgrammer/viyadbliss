@@ -33,7 +33,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
     <>
       <aside className="sidebar-area blog-sidebar">
         {/* <!-- Author Widget --> */}
-        <div className="widget ltn__author-widget">
+        {/* <div className="widget ltn__author-widget">
           <div className="ltn__author-widget-inner text-center">
             <img
               src={`/img/team/${product.agent.img}`}
@@ -101,7 +101,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- Search Widget --> */}
         <div className="widget ltn__search-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
@@ -136,7 +136,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
           </form>
         </div>
         {/* <!-- Top Rated Product Widget --> */}
-        <div className="widget ltn__top-rated-product-widget">
+        {/* <div className="widget ltn__top-rated-product-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
             Top Rated Product
           </h4>
@@ -198,9 +198,9 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
               );
             })}
           </ul>
-        </div>
+        </div> */}
         {/* <!-- Menu Widget (Category) --> */}
-        <div className="widget ltn__menu-widget">
+        {/* <div className="widget ltn__menu-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
             Top Categories
           </h4>
@@ -231,7 +231,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
         {/* <!-- Popular Product Widget --> */}
         <div className="widget ltn__popular-product-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
@@ -307,7 +307,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
           </Slider>
         </div>
         {/* <!-- Popular Post Widget --> */}
-        <div className="widget ltn__popular-post-widget">
+        {/* <div className="widget ltn__popular-post-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
             Leatest Blogs
           </h4>
@@ -346,9 +346,9 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
               );
             })}
           </ul>
-        </div>
+        </div> */}
 
-        <div className="widget ltn__popular-post-widget ltn__twitter-post-widget">
+        {/* <div className="widget ltn__popular-post-widget ltn__twitter-post-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
             Twitter Feeds
           </h4>
@@ -444,7 +444,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
               </div>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <FollowUs title="Follow Us" />
 

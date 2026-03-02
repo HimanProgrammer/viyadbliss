@@ -41,9 +41,9 @@ function BlogtDetails({ blog }) {
         {/* <!-- BREADCRUMB AREA START --> */}
 
         <ShopBreadCrumb
-          title="News Details"
+          title="BlogDetails"
           sectionPace=""
-          currentSlug="News Details"
+          currentSlug="Blog Details"
         />
 
         {/* <!-- BREADCRUMB AREA END --> */}
